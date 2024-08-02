@@ -1,0 +1,180 @@
+1. Framework : set of libraries that provide to the developer to reduce the boiler plate
+2. Scrum : it's a framework for prject management for agile
+3. Agile:
+
+4. Sprint : you do on a peice of work more efficiently
+5. what are Scrum Ceremonies :
+   Sprint Planning
+   Daily stand-up
+   Sprint review
+   Sprint retrospective
+
+6.Story Points
+7. Epic
+8. User Stroies
+
+question on class :
+write a program to input a number using command line arguments multiply it by a number of your choice and display the result.
+create a custom exception using try catch in valid age restriction anyone above 80 is allowd to go and not 80 is not allowed
+
+9. Errors
+10. Exception
+11. Keywords in exception :
+   Try, catch, throws,throw , finally and try with resource
+
+Link that i need to learn
+
+https://www.atlassian.com/agile
+https://github.com/jasdhiratrevature/TRNG-00001988
+https://howtodoinjava.com/java/date-time/intro-to-date-time-api/
+
+
+    Q C Schedule
+
+QC Schedule
+
+
+Weekly QC
+	
+Date
+
+
+Week-1
+	
+8/6/2024
+
+
+Week-2
+	
+8/13/2024
+
+
+Weekly Quizzes
+	
+Date
+
+
+week-1
+	
+8/6/2024
+
+
+week-2
+	
+8/13/2024
+
+
+Competency Audits
+	
+Date
+
+
+Java SQL
+	
+8/20/2024
+
+
+Web Development
+	
+8/27/2024
+
+
+JSP
+	
+9/2/2024
+
+
+Spring Boot
+	
+9/10/2024
+
+
+Tuning LLMs(Unit)
+	
+9/18/2024
+
+
+Micorservices
+	
+9/25/2024
+
+
+DevOps
+	
+9/30/2024
+
+
+Cumulative
+	
+10/3/2024
+
+
+Coding Challenges
+
+
+week 2 - Java level 1
+	
+8/5/2024
+
+
+week 3-  SQL level 1
+	
+8/12/2024
+
+
+week 4 - Java level 2
+	
+8/19/2024
+
+
+week 5 - SQL level 2
+	
+8/26/2024
+
+
+week 6 - Java level 3
+	
+9/2/2024
+
+
+Competency Exams
+
+
+Competencies
+	
+Date
+
+
+Java SQL
+	
+8/20/2024
+
+
+Web Development
+	
+8/27/2024
+
+
+JSP
+	
+9/2/2024
+
+
+Spring Boot
+	
+9/10/2024
+
+
+Tuning LLMs(Unit)
+	
+9/18/2024
+
+
+Micorservices
+	
+9/25/2024
+
+
+DevOps
+	
+9/30/2024
