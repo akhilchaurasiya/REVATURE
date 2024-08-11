@@ -1,0 +1,10 @@
+Real life example of Right join and left join
+
+Union are use with rows combine
+
+Join combine column
+
+drop delete truncate difffference
+
+in procedure
+in,out and in-out prameter

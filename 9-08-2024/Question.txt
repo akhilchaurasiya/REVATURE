@@ -1,0 +1,31 @@
+AUTO_INCREMENT,
+  `name` varchar(25) NOT NULL,
+  `email` varchar(30) NOT NULL,
+  `username` varchar(50) GENERATED ALWAYS AS (concat(`name`,_utf8mb4' ')) VIRTUAL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `email` (`email`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+[11:59 AM] Sudeep Joshi (Unverified)
+https://jasdhir.blogspot.com/search?q=jdbc
+ 
+[11:41 AM] Jasdhir Singh
+https://github.com/jasdhiratrevature/TRNG-00001988/tree/main/080924
+TRNG-00001988/080924 at main · jasdhiratrevature/TRNG-00001988
+Contribute to jasdhiratrevature/TRNG-00001988 development by creating an account on GitHub.
+ 
+
+[11:41 AM] Jasdhir Singh
+https://github.com/jasdhiratrevature/TRNG-00001988/tree/main/080924
+TRNG-00001988/080924 at main · jasdhiratrevature/TRNG-00001988
+Contribute to jasdhiratrevature/TRNG-00001988 development by creating an account on GitHub.
+ 
+
+
+Create a java project for crud operations use callable statement to use java program to call a stored procedure
+
+discuss meeting
+database designed by Monday
+Trello updated
+GitHub reporisitory
+

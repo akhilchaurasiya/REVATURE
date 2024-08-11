@@ -1,0 +1,20 @@
+1. I have an entity with student having id , name , and course id  and having a course with course id , course name.
+2. Research more about conceptual , logical and physical model.
+3. Five language od SQL : 
+  DDL
+  DML
+  DCL
+  TCL
+  DQL	
+Super key : It is unique identify all the rows is super keys.
+
+Multiplicity in database
+
+
+https://www.mysqltutorial.org/
+
+https://aws.amazon.com/getting-started/hands-on/create-mysql-db/
+https://leetcode.com/studyplan/top-sql-50/
+
+
+database-1

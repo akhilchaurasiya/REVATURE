@@ -1,0 +1,6 @@
+1. Difference between Kanban and Scrum  (Scrum is framework and Kanban is a tool)
+2. writing the state of objects into a byte stream
+
+
+3.Log
+4. Logging levels

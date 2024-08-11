@@ -1,0 +1,10 @@
+Create a maven project and in that project create a class called calculator with a method named as sum which accepts two integer as parameters and return the sum of those two numbers.
+
+Modify this application to use all the mathematical operators and write the discloses and check the condtion if one of the method is throwing the exceptions and which with the assert throws . Research more about data driven cases .
+
+UNit testing
+System Testing
+
+Test driven development : It is used to test the code first then after you write the code.
+Junit : it is the popular framework for java
+Assertions : it is used to validate the test case which is equal to the actual output
