@@ -1,0 +1,164 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Grouping selector: applies to both h1 and p tags */
+h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Descendant selector: applies to elements inside #resume */
+#resume * {
+    box-sizing: border-box;
+}
+
+/* ID Selector */
+#resume {
+    width: 80%;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Child Selector */
+#header > img {
+    border: 5px solid #ffffff;
+}
+
+/* Attribute Selector */
+a[href^="mailto"] {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+/* Sibling Selector */
+.section + .section {
+    margin-top: 30px;
+}
+
+/* Hover Effects with Pseudo-Classes */
+#profile-img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* Pseudo-Classes */
+.item:hover {
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Header Section */
+#header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    color: #ffffff;
+}
+
+#profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+#name {
+    font-size: 2.5em;
+}
+
+#location, #contact {
+    margin: 5px 0;
+}
+
+/* Content Section */
+#content {
+    padding: 20px;
+}
+
+/* Section Titles */
+.section-title {
+    border-left: 5px solid #6a11cb;
+    padding-left: 10px;
+    color: #2575fc;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+
+/* Section Items */
+.item {
+    margin-bottom: 20px;
+}
+
+.institution, .position {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.date {
+    color: #888;
+    font-size: 0.9em;
+}
+
+.details {
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Ordered List Styling (Descendant Selector) */
+.details ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+/* Skills Section */
+.skill-category {
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Skill Item Styling */
+.skill-item {
+    display: inline-block;
+    background: #2575fc;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-right: 5px;
+    font-size: 0.9em;
+}
+
+/* Projects Section */
+.project {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Certifications Section */
+.cert-list {
+    padding-left: 20px;
+    list-style-type: disc;
+    color: #555;
+}
+
+/* Media Query for Responsive Design */
+@media screen and (max-width: 768px) {
+    #resume {
+        width: 95%;
+    }
+    
+    #profile-img {
+        width: 120px;
+        height: 
