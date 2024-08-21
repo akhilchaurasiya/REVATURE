@@ -1,0 +1,17 @@
+
+What is producer consumer problem and how to overcome this
+
+what is stubs : for state verification
+what is mock : for behaviour verification
+
+What is idempotent method and not safe.
+firstly aware with the all method.
+post , put and patch difference
+
+https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+https://reqres.in/
+
+
+linear search , binanry search , bubble sort , selection sort , quick sort , insertion sort
+
+box model properties and purpose of css 4 box model 
