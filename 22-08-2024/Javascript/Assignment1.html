@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+           
+           
+        }
+        .input{
+            display: flex;
+            justify-content: center;
+            gap: 2vw;
+        }
+        .input label{
+            font-size: larger;
+        }
+        #num1 , #num2{
+            font-size: large;
+            border-radius: 1px solid black;
+            
+        }
+        .btn{
+            display: flex;
+            justify-content: center;
+            gap: 2vw;
+            padding: 2vw;
+        }
+        .btn button{
+            padding: 13px;
+        }
+        .result{
+            text-align: center;
+            justify-content: center;
+            font-size: larger;
+        }
+    </style>
+
+    <!-- Create a webpage with two text boxes and one label and four different buttons (add,sub,mul,div). -->
+</head>
+<body>
+    <div class="container">
+
+        <h2 style="text-align: center;">Perform Calculator</h2>
+     
+        <div class="input">
+            <label for="sum">Input :</label>
+        
+            <input type="text" id="num1" placeholder="Enter the first number">
+            <input type="text" id="num2" placeholder="Enter the first number">
+    
+        </div>
+    
+        
+        <div class="btn">
+            <button onclick="addNum()">Add</button>
+            <button onclick="subNum()">Subtract</button>
+            <button onclick="multiplyNum()">Multiply</button>
+            <button onclick="divideNum()">Divide</button>
+        </div>
+        <div id="result" style="text-align: center; font-size: xx-large;"></div>
+
+    </div>
+   
+    
+    <script>
+        function addNum()
+        {
+            var num1 = parseFloat(document.getElementById('num1').value);
+            var num2 = parseFloat(document.getElementById('num2').value);
+            var sum = 0;
+
+            if(!isNaN(num1) && !isNaN(num2))
+        {
+            sum = num1+num2;
+            document.getElementById('result').textContent = "Result is " + sum;
+        }
+        else{
+            alert("enter valid number");
+        }   
+        }
+
+        function subNum()
+        {
+            var num1 = parseFloat(document.getElementById('num1').value);
+            var num2 = parseFloat(document.getElementById('num2').value);
+            var res = 0;
+
+            if(!isNaN(num1) && !isNaN(num2))
+        {
+            res = num1-num2;
+            document.getElementById('result').textContent = "Result is " + res;
+        }
+        else{
+            alert("enter valid number");
+        }
+
+
+            
+        }
+        function multiplyNum()
+        {
+            var num1 = parseFloat(document.getElementById('num1').value);
+            var num2 = parseFloat(document.getElementById('num2').value);
+            var res = 0;
+
+            if(!isNaN(num1) && !isNaN(num2))
+        {
+            res = num1*num2;
+            document.getElementById('result').textContent = "Result is " + res;
+        }
+        else{
+            alert("enter valid number");
+        }   
+        }
+
+
+        function divideNum()
+        {
+            var num1 = parseFloat(document.getElementById('num1').value);
+            var num2 = parseFloat(document.getElementById('num2').value);
+            var res = 0;
+
+            if(!isNaN(num1) && !isNaN(num2))
+        {
+            res = num1/num2;
+            document.getElementById('result').textContent = "Result is " + res;
+        }
+        else{
+            alert("enter valid number");
+        }
+        }
+       
+    </script>
+</body>
+</html>

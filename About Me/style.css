@@ -161,4 +161,14 @@ a[href^="mailto"] {
     
     #profile-img {
         width: 120px;
-        height: 
+        height: 120px;
+    }
+    
+    #name {
+        font-size: 1.8em;
+    }
+    
+    .section-title {
+        font-size: 1.5em;
+    }
+}

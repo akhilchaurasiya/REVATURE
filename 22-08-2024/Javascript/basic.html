@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript practice</title>
+    <script>
+        function alertFunction()
+        {
+            alert("hello akhil");
+        }
+    </script>
+</head>
+<body>
+    <h1>Welcome to javascript tutorial</h1>
+    <button onclick="alertFunction()">Click</button>
+
+
+    <h2 id="h2">Hello welcome to event listener</h2>
+    <script>
+        var element = document.getElementById("h2");
+        element.addEventListener("mouseover",headClick);
+        function headClick()
+        {
+            alert("Heading Clicked");
+            element.innerHTML = "the mouse moved";
+        }
+    </script>
+</body>
+</html>
